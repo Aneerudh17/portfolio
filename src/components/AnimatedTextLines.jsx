@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useRef } from "react";
 gsap.registerPlugin(ScrollTrigger);
+
 export const AnimatedTextLines = ({ text, className }) => {
   const containerRef = useRef(null);
   const lineRefs = useRef([]);
