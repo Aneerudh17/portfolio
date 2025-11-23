@@ -91,7 +91,7 @@ export const projects = [
       { id: 2, name: "Next.js" },
       { id: 3, name: "Node.js" },
       { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 5, name: "Tailwind" },
     ],
   },
   {
@@ -104,8 +104,8 @@ export const projects = [
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
       { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
+      { id: 2, name: ".NET Core" },
+      { id: 3, name: "SQL" },
       { id: 4, name: "Bootstrap" },
     ],
   },
