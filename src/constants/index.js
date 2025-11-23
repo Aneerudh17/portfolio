@@ -126,6 +126,6 @@ export const projects = [
   },
 ];
 export const socials = [
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/aneerudh-p-96a360287/" },
+  { name: "GitHub", href: "https://github.com/Aneerudh17" },
 ];
