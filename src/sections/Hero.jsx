@@ -17,10 +17,7 @@ results driven web apps`;
         text={text}
         textColor={"text-black"}
       />
-      <figure
-        className="absolute inset-0 -z-50"
-        style={{ width: "100vw", height: "100vh" }}
-      >
+      <figure className="absolute inset-0 -z-50 w-full h-full">
         <Canvas
           shadows
           camera={{ position: [0, 0, -10], fov: 17.5, near: 1, far: 20 }}
