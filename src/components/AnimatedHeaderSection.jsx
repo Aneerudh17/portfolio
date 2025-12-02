@@ -56,7 +56,7 @@ const AnimatedHeaderSection = ({
               className={`
     flex flex-col uppercase banner-text-responsive
     gap-12 sm:gap-16 md:block
-    max-sm:text-[3.6rem]
+    max-sm:text-[3.0rem]
     ${textColor}
   `}
             >
