@@ -36,28 +36,28 @@ const ServiceSummary = () => {
   return (
     <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive">
       <div id="title-service-1">
-        <p>Architucture</p>
+        <p className="max-sm:text-3xl">Architucture</p>
       </div>
       <div
         id="title-service-2"
         className="flex items-center justify-center gap-3 translate-x-16"
       >
-        <p className="font-normal">Development</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p>Deployment</p>
+        <p className="font-normal max-sm:text-3xl">Development</p>
+        <div className="w-16 sm:w-10 md:w-32 h-1 bg-gold flex-shrink-0" />
+        <p className="max-sm:text-3xl">Deployment</p>
       </div>
       <div
         id="title-service-3"
         className="flex items-center justify-center gap-3 -translate-x-48"
       >
-        <p>APIs</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p className="italic">Frontends</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p>Scalability</p>
+        <p className="max-sm:text-2xl">APIs</p>
+        <div className="w-16 sm:w-10 md:w-32 h-1 bg-gold flex-shrink-0" />
+        <p className="italic max-sm:text-3xl">Frontends</p>
+        <div className="w-16 sm:w-10 md:w-32 h-1 bg-gold flex-shrink-0" />
+        <p className="max-sm:text-3xl">Scalability</p>
       </div>
       <div id="title-service-4" className="translate-x-48">
-        <p>Databases</p>
+        <p className="max-sm:text-3xl">Databases</p>
       </div>
     </section>
   );
