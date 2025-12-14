@@ -11,7 +11,7 @@ export const servicesData = [
       },
       {
         title: "Frontend Development",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        description: "(React, TailwindCSS, TypeScript, Interactive UI/UX)",
       },
       {
         title: "Database Design",
@@ -34,7 +34,7 @@ export const servicesData = [
       },
       {
         title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        description: "(Caching, Compression,Optimisation)",
       },
     ],
   },
@@ -56,26 +56,7 @@ export const servicesData = [
         description: "(SSR, Metadata, Structured Data)",
       },
     ],
-  },
-  {
-    title: "Web & Mobile Apps",
-    description:
-      "I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
-    items: [
-      {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
-      {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
-      },
-    ],
-  },
+  }
 ];
 export const projects = [
   {
