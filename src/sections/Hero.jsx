@@ -6,9 +6,10 @@ import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
-  const text = `I help growing brands and startups gain an
-unfair advantage through premium
-results driven web apps`;
+  const text = `I design and build reliable
+web applications focused on
+clarity, performance, and real-world use
+`;
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
